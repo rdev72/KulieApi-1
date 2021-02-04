@@ -1,0 +1,23 @@
+{
+  "name": "kuliee",
+  "version": "1.0.0",
+  "description": "internship",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Rohan Dev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "mongoose": "^5.11.14",
+    "morgan": "^1.10.0",
+    "nodejs-nodemailer-outlook": "^1.2.3",
+    "nodemailer": "^6.4.17",
+    "sendmail": "^1.6.1"
+  }
+}
